@@ -1,0 +1,16 @@
+services:
+  docs:
+    image: wood_house_local_docs
+    container_name: wood_house_local_docs
+    build:
+      context: .
+      dockerfile: ./compose/local/docs/Dockerfile
+    env_file:
+      - ./.envs/.local/.django
+    volumes:
+      - ./docs:/docs:z
+      - ./config:/app/config:z
+      - ./wood_house:/app/wood_house:z
+    ports:
+      - '9000:9000'
+    command: /start-docs
