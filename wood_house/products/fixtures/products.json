@@ -1,0 +1,407 @@
+[
+    {
+        "model": "products.category",
+        "pk": 1,
+        "fields": {
+            "name": "Living Room",
+            "is_active": true,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 2,
+        "fields": {
+            "name": "Bedroom",
+            "is_active": true,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 3,
+        "fields": {
+            "name": "Dining Room",
+            "is_active": true,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 4,
+        "fields": {
+            "name": "Office",
+            "is_active": true,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 5,
+        "fields": {
+            "name": "Outdoor",
+            "is_active": true,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 1,
+        "fields": {
+            "name": "Wooden Sofa",
+            "description": "Comfortable wooden sofa for living room.",
+            "price": 200.00,
+            "stock": 50,
+            "category": 1,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 2,
+        "fields": {
+            "name": "Wooden Coffee Table",
+            "description": "Stylish coffee table made from high-quality wood.",
+            "price": 150.00,
+            "stock": 40,
+            "category": 1,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 3,
+        "fields": {
+            "name": "Wooden Bookshelf",
+            "description": "Durable wooden bookshelf for your living room.",
+            "price": 120.00,
+            "stock": 30,
+            "category": 1,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 4,
+        "fields": {
+            "name": "Wooden Bed Frame",
+            "description": "Elegant wooden bed frame for the bedroom.",
+            "price": 350.00,
+            "stock": 25,
+            "category": 2,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 5,
+        "fields": {
+            "name": "Wooden Nightstand",
+            "description": "Compact wooden nightstand for bedroom use.",
+            "price": 80.00,
+            "stock": 60,
+            "category": 2,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 6,
+        "fields": {
+            "name": "Wooden Dining Table",
+            "description": "Solid wooden dining table for 6 people.",
+            "price": 400.00,
+            "stock": 10,
+            "category": 3,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 7,
+        "fields": {
+            "name": "Wooden Dining Chair",
+            "description": "Comfortable dining chair made from oak wood.",
+            "price": 100.00,
+            "stock": 20,
+            "category": 3,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 8,
+        "fields": {
+            "name": "Wooden Office Desk",
+            "description": "Spacious wooden office desk for productive work.",
+            "price": 250.00,
+            "stock": 15,
+            "category": 4,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 9,
+        "fields": {
+            "name": "Wooden Office Chair",
+            "description": "Ergonomic wooden office chair for long hours.",
+            "price": 180.00,
+            "stock": 20,
+            "category": 4,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 10,
+        "fields": {
+            "name": "Wooden Outdoor Bench",
+            "description": "Durable and comfortable outdoor wooden bench.",
+            "price": 150.00,
+            "stock": 30,
+            "category": 5,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 11,
+        "fields": {
+            "name": "Wooden Patio Table",
+            "description": "Wooden patio table perfect for outdoor dining.",
+            "price": 220.00,
+            "stock": 12,
+            "category": 5,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 12,
+        "fields": {
+            "name": "Wooden Outdoor Chair",
+            "description": "Sturdy wooden chair for outdoor use.",
+            "price": 130.00,
+            "stock": 25,
+            "category": 5,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 13,
+        "fields": {
+            "name": "Wooden Wardrobe",
+            "description": "Spacious wooden wardrobe for bedroom storage.",
+            "price": 450.00,
+            "stock": 18,
+            "category": 2,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 14,
+        "fields": {
+            "name": "Wooden Shelf",
+            "description": "A multi-purpose wooden shelf for your home.",
+            "price": 95.00,
+            "stock": 22,
+            "category": 1,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 15,
+        "fields": {
+            "name": "Wooden Lounge Chair",
+            "description": "Relaxing wooden lounge chair for outdoor or indoor use.",
+            "price": 180.00,
+            "stock": 14,
+            "category": 5,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 16,
+        "fields": {
+            "name": "Wooden Ottoman",
+            "description": "Wooden ottoman with a soft cushion for the living room.",
+            "price": 90.00,
+            "stock": 35,
+            "category": 1,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 17,
+        "fields": {
+            "name": "Wooden Coffee Table Set",
+            "description": "A set of wooden coffee tables for living rooms.",
+            "price": 250.00,
+            "stock": 12,
+            "category": 1,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 18,
+        "fields": {
+            "name": "Wooden TV Stand",
+            "description": "Stylish wooden TV stand for living rooms.",
+            "price": 175.00,
+            "stock": 28,
+            "category": 1,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 19,
+        "fields": {
+            "name": "Wooden Dining Set",
+            "description": "Complete wooden dining set for 6 people.",
+            "price": 500.00,
+            "stock": 8,
+            "category": 3,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 20,
+        "fields": {
+            "name": "Wooden Wine Rack",
+            "description": "A stylish wooden rack for storing wine bottles.",
+            "price": 120.00,
+            "stock": 16,
+            "category": 3,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 21,
+        "fields": {
+            "name": "Wooden Coffee Table with Storage",
+            "description": "A wooden coffee table with storage space.",
+            "price": 230.00,
+            "stock": 20,
+            "category": 1,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 22,
+        "fields": {
+            "name": "Wooden Chair Set",
+            "description": "A set of 4 wooden chairs for dining.",
+            "price": 320.00,
+            "stock": 10,
+            "category": 3,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 23,
+        "fields": {
+            "name": "Wooden Rocking Chair",
+            "description": "A comfortable wooden rocking chair for the porch.",
+            "price": 180.00,
+            "stock": 14,
+            "category": 5,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 24,
+        "fields": {
+            "name": "Wooden Bedside Table",
+            "description": "A wooden bedside table for the bedroom.",
+            "price": 85.00,
+            "stock": 24,
+            "category": 2,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 25,
+        "fields": {
+            "name": "Wooden Cabinet",
+            "description": "A wooden cabinet with shelves for storing items.",
+            "price": 320.00,
+            "stock": 18,
+            "category": 4,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 26,
+        "fields": {
+            "name": "Wooden Bookcase",
+            "description": "A tall wooden bookcase for storing books and decor.",
+            "price": 220.00,
+            "stock": 15,
+            "category": 1,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 27,
+        "fields": {
+            "name": "Wooden Lounge Chair Set",
+            "description": "A set of 2 wooden lounge chairs for outdoor relaxation.",
+            "price": 250.00,
+            "stock": 18,
+            "category": 5,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 28,
+        "fields": {
+            "name": "Wooden Storage Bench",
+            "description": "A wooden storage bench for your living or outdoor space.",
+            "price": 160.00,
+            "stock": 10,
+            "category": 1,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 29,
+        "fields": {
+            "name": "Wooden Folding Chair",
+            "description": "Space-saving folding wooden chair for the office or outdoor.",
+            "price": 110.00,
+            "stock": 12,
+            "category": 4,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 30,
+        "fields": {
+            "name": "Wooden Garden Table",
+            "description": "A wooden garden table perfect for outdoor meals.",
+            "price": 270.00,
+            "stock": 8,
+            "category": 5,
+            "created_at": "2024-12-16T00:00:00"
+        }
+    }
+]

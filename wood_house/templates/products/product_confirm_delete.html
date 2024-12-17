@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <h2>Delete Product</h2>
+      <p class="text-warning">
+        <strong>Warning:</strong> Deleting a product is permanent and cannot be undone.
+      </p>
+      
+      <div class="alert alert-danger">
+        Are you sure you want to delete the product <strong>"{{ product.name }}"</strong>? This action is irreversible.
+      </div>
+
+      <form method="post">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-danger" aria-label="Confirm delete {{ product.name }}">Confirm Delete</button>
+        <a href="{% url 'products:product_list' %}" class="btn btn-secondary" aria-label="Cancel deletion of {{ product.name }}">Cancel</a>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock content %}

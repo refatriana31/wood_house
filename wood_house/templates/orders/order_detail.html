@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h1>Order Detail - #{{ order.id }}</h1>
+
+    <!-- Order Info -->
+    <div class="mb-4">
+        <h5>Order Information</h5>
+        <p><strong>User:</strong> {{ order.user.email }}</p>
+        <p><strong>Status:</strong> {{ order.get_status_display }}</p>
+        <p><strong>Created At:</strong> {{ order.created_at }}</p>
+    </div>
+
+    <!-- Order Items -->
+    <div>
+        <h5>Order Items</h5>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in order.orderitem_set.all %}
+                <tr>
+                    <td>{{ forloop.counter }}</td>
+                    <td>{{ item.product.name }}</td>
+                    <td>{{ item.quantity }}</td>
+                    <td>{{ item.product.price }}</td>
+                    <td>{{ item.quantity|floatformat:2 }}</td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="5" class="text-center">No items in this order.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <a href="{% url 'order_list' %}" class="btn btn-secondary">Back to Orders</a>
+</div>
+{% endblock %}
